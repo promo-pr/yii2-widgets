@@ -1,0 +1,25 @@
+{
+  "name": "promo-pr/yii2-widgets",
+
+  "type": "yii2-extension",
+
+  "description": "System widgets for Yii2",
+  "keywords": ["yii2", "widgets"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Promo-pr",
+      "email": "1@promo-pr.ru"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "promo\\widgets\\": ""
+    }
+  }
+}
